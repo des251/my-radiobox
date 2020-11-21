@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="css/style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Магазин радиотоваров в Бресте</title>
@@ -13,18 +15,22 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="cyan accent-4">
-      <div class="nav-wrapper container">
-        <a href="#!" class="brand-logo">Radiobox</a>
-        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="sass.html">Sass</a></li>
-          <li><a href="badges.html">Components</a></li>
-          <li><a href="collapsible.html">Javascript</a></li>
-          <li><a href="mobile.html">Mobile</a></li>
-        </ul>
+    <div class="pos-a">
+      <div class="navbar-fixed">
+        <nav id="main-nav" class="transparent z-depth-0">
+          <div class="nav-wrapper container">
+            <a href="#!" class="brand-logo">Radiobox</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="sass.html">Sass</a></li>
+              <li><a href="badges.html">Components</a></li>
+              <li><a href="collapsible.html">Javascript</a></li>
+              <li><a href="mobile.html">Mobile</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
-    </nav>
+    </div>
     <ul class="sidenav" id="mobile-demo">
       <li><a href="sass.html">Sass</a></li>
       <li><a href="badges.html">Components</a></li>
@@ -32,6 +38,8 @@
       <li><a href="mobile.html">Mobile</a></li>
     </ul>
 
+    <div style="background-color: black; height: 100vh; background-image: url('./img/banner.png'); background-size: cover;"></div>
+    <div style="background-color: black; height: 100vh; background-image: url('./img/banner.png'); background-size: cover;"></div>
 
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="js/materialize.min.js"></script>

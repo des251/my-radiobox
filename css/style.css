@@ -1,0 +1,8 @@
+.pos-a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#main-nav {
+  transition: 1s linear;
+}
