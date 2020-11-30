@@ -4,6 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
   var instances = M.Sidenav.init(elems);
 });
 
+// Slider
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.slider');
+  var instances = M.Slider.init(elems, {
+    indicators: false
+  });
+});
+
 // Sticky navbar
 function makeNavSticky() {
   var flag = true;
