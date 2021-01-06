@@ -597,6 +597,13 @@
   background-position: 50% 50%;
   animation: float 6s ease-in-out infinite;
 }
+.start-img-2 {
+  background-image: url("../img/robiton.png");
+}
+
+.start-img-3 {
+  background-image: url("../img/hoco.png");
+}
 
 .start-text {
   width: 100%;
