@@ -30,6 +30,9 @@ function makeNavSticky() {
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.slider');
   var instances = M.Slider.init(elems);
+  var ActiveIndicator = document.querySelector('.indicator-item', '.active');
+  ActiveIndicator.style.backgroundColor = '#00b8d4';
+  console.log(ActiveIndicator);
 });
 
 makeNavSticky();
