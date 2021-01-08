@@ -660,3 +660,15 @@
     transform: translatey(0px);
   }
 }
+
+/* Modules */
+
+.modules-header {
+  display: flex;
+}
+.modules-header h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+}
