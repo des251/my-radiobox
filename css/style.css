@@ -735,5 +735,6 @@
 @media (max-width: 600px) {
   .modules-card {
     border-right: none;
+    border-bottom: 1px solid #dadada;
   }
 }
