@@ -664,11 +664,51 @@
 /* Modules */
 
 .modules-header {
+ 
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .modules-header h2 {
+  min-width: 250px;
+  margin: 0;
+  padding-right: 30px;
   font-family: 'Oswald', sans-serif;
   font-weight: 300;
   font-size: 27px;
-  line-height: 45px;
+}
+.modules-control {
+  display: flex;
+  justify-content: flex-end;
+  min-width: 320px;
+  
+}
+.tab-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 35px;
+  padding-left: 30px;
+  cursor: pointer;
+  color: #8c8f8f;
+}
+.tab-btn:focus {
+  background: none;
+}
+.tab-active {
+  color: #000000;
+  font-weight: 700;
+}
+.decor-line {
+  height: 1px;
+  width: 100%;
+  background-color: #8c8f8f;
 }
