@@ -664,7 +664,6 @@
 /* Modules */
 
 .modules-header {
- 
   padding-top: 60px;
   padding-bottom: 30px;
   padding-left: 0.75rem;
@@ -695,7 +694,6 @@
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 15px;
-  line-height: 35px;
   padding-left: 30px;
   cursor: pointer;
   color: #8c8f8f;
@@ -711,4 +709,31 @@
   height: 1px;
   width: 100%;
   background-color: #8c8f8f;
+}
+
+@media (max-width: 700px) {
+  .modules-header h2 {
+    min-width: 50%;
+    font-size: 16px;
+  }
+  .tab-btn {
+    font-size: 9px;
+    padding-left: 10px;
+  }
+  .modules-control {
+    min-width: 50%;
+  }
+  .decor-line {
+    display: none;
+  }
+}
+
+.modules-card {
+  border-right: 1px solid #dadada;
+}
+
+@media (max-width: 600px) {
+  .modules-card {
+    border-right: none;
+  }
 }
