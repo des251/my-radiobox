@@ -738,3 +738,8 @@
     border-bottom: 1px solid #dadada;
   }
 }
+
+
+.parallax-container {
+  height: 300px;
+}
