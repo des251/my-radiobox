@@ -26,13 +26,13 @@ function makeNavSticky() {
   });
 };
 
-//Slider
+// Slider
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.slider');
   var instances = M.Slider.init(elems);
 });
 
-//Paralax
+// Paralax
 document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.parallax');
   var instances = M.Parallax.init(elems);
